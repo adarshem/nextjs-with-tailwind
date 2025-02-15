@@ -9,8 +9,11 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "lucide-react": "0.475.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
+    "react-latex": "^2.0.0",
+    "katex": "^0.16.9",
     "next": "15.1.7"
   },
   "devDependencies": {
