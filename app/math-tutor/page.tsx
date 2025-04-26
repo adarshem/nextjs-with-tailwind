@@ -16,7 +16,6 @@ export default function MathTutor() {
   const [input, setInput] = useState('');
   const [isLoading, setIsLoading] = useState(false);
   const { isDark, toggleTheme } = useTheme();
-  console.log('====>>>>isDark', isDark);
 
   const solveProblem = async (e: React.FormEvent) => {
     e.preventDefault();
